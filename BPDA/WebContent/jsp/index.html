@@ -1,0 +1,214 @@
+<table style="width: 100%; height: 100%; border: 0; padding: 0; background-color: white;" align="center" cellpadding="0" cellspacing="0">
+   <tbody><tr bgcolor="#FFFFFF" style="background-image: url(/com.bpcl.portal.runtime.logon/layout/bpcl_bg.jpg); background-repeat:no-repeat;">
+	<td valign="top">
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr> 
+          <td valign="top">
+          <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="Bharat%20Petroleum_files/bpcl_bg.jpg">
+          	<tbody><tr valign="top"> 
+            	<td width="83%" height="101">
+                	<br>
+                	<br>
+                    <br> 
+                	<img align="bottom" src="/com.bpcl.portal.runtime.logon/layout/final2.png" width="375" height="80">
+                	<br>
+        <!--          <img src="/com.bpcl.portal.runtime.logon/layout/ENER1.gif" width="263" height="34" /> --></td>
+                <td width="16%"><div align="right"><img src="/com.bpcl.portal.runtime.logon/layout/girltop_pic1.jpg" width="252" height="132"></div></td>
+                <td width="1%">&nbsp;</td>
+            </tr>
+          </tbody></table>
+          </td>
+        </tr>
+       	<tr>
+		<td width="100%">&nbsp;
+		</td>
+		</tr>	     
+		<tr>
+		<td>
+	 	<table id="inputTable" align="center" style="border:1px solid #C0BCB2; height: 100%; width: 400px;">
+    	<tbody>
+    	<tr> 
+    		<td align="center" colspan="4" class="message" style="color:#858483; font-size:12px;">
+    			Please enter your User ID and Password to Log-In.
+    		</td>
+    	</tr>
+		<tr>
+    	<td colspan="4">
+    		<span id="errorMessage" style="font-size:10pt; color:red"></span>
+    	</td>
+    	</tr>
+    	<tr>
+    		<td colspan="4" align="center">
+
+    		
+<!--			&&&		Data table starts after this line  &&& -->    		
+    		<form autocomplete="off" id="logonForm" name="logonForm" target="logonAppPage" method="post" action="">
+<input name="login_submit" type="hidden" value="on"><input type="hidden" name="login_do_redirect" value="1"><input name="no_cert_storing" type="hidden" value="on"><input type="hidden" name="j_salt" value="vlCbYUF7SJtFfw1IArrqPxiK64A=">
+
+			
+				<table class="urLogonTable" cellspacing="3px" style="padding: 0; vertical-align: top;">																									
+				<tbody><tr>
+					<td colspan="3">
+					<div class="urMessageArea">
+<!--			&&&		Federation Error Message  &&&				-->
+																				
+																				
+					</div>
+					</td>
+				</tr>	
+<!--			&&& 	Unnecessary Links, Commented From Here. By Deepak Salokhe. Date 22.02.2012 &&& -->
+<!--			&&&	******************************************* &&&-->
+<!--								-->
+<!--			&&& 	Commented Till Here. &&& -->
+<!--			&&&	******************************************* &&&-->
+<!--			&&&		Userid &&&-->
+				<tr>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					<td>
+						<label class="urLblStdNew"><nobr>User<span class="urLblReq">&nbsp;*</span></nobr></label>
+
+					</td>
+					<td align="center" style=" padding-left: 10px; ">
+						<input type="text" id="logonuidfield" name="j_username" value="" title="User *" class="urEdfTxtEnbl" style="width:170px"> 
+					</td>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					
+				</tr>
+<!--			&&&	    Password &&& -->
+				<tr>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					<td>
+						<label class="urLblStdNew" for="logonpassfield"><nobr>Password<span class="urLblReq">&nbsp;*</span></nobr></label>
+
+					</td>
+					<td align="center" style=" padding-left: 10px;">
+						<input type="password" id="logonpassfield" name="j_password" class="urEdfTxtEnbl" style="width:170px">
+					</td>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+				</tr>
+<!--			&&&	    Captcha &&& -->
+				<tr>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					<td>
+						<span styleclass="urLblStdNew" flagreqclass="urLblReq">
+							Verification Code							
+						</span>
+					</td>
+					<td align="center" style=" padding-left: 10px;">
+						<img border="0" height="60px" src="/com.bpcl.portal.runtime.logon/Captcha">
+					</td>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+				</tr>		
+				<tr>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					<td>
+						Please enter the image code 
+					</td>
+					<td align="center" style=" padding-left: 10px;">
+						<input type="text" name="captchaInput" id="captchaInput" styleclass="urEdfTxtEnbl" flagreqclass="urLblReq" style="width:170px">
+						<input type="hidden" name="validHash" id="validHash" value="8287246077218844e4c4f9ab8b8ad9be">
+					</td>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+				</tr>		
+<!--			&&& 	Unnecessary Links, Commented From Here.  By Deepak Salokhe. Date 22.02.2012 &&& -->
+<!--			&&&	******************************************* &&&-->
+<!--			&&&	    Create certificate &&&-->
+<!--				-->
+<!--			&&&	    Federate User checkbox &&&-->
+<!--				-->
+<!--			&&& 	Commented Till Here.  &&& -->
+<!--			&&&	******************************************* &&&-->
+				<tr>
+					<td width="100%" colspan="4">&nbsp;
+					</td>
+				</tr>
+					
+					<tr>
+						<td style="WIDTH:70px">&nbsp;																											
+						</td>
+						<td align="center" colspan="2">	
+<!--			&&&	    Logon button &&&-->
+							<input class="urBtnStdNew" type="submit" name="uidPasswordLogon" value="Log On">
+
+							
+						</td>
+					<td style="WIDTH:70px">&nbsp;
+					</td>
+					</tr>
+				
+				
+<!--			&&& 	Unnecessary Links, Commented From Here.  By Deepak Salokhe. Date 22.02.2012 &&& -->
+<!--			&&&	******************************************* &&&-->				
+<!--			&&&		Link to certificate logon  &&& -->
+<!--				-->
+<!--				<tr>-->
+<!--					<td align="left" colspan="3">-->
+<!--						<a href="https://efp.bpcl.in:50101/irj/portal" target="logonAppPage" class="urLnk"><span class="urTxtStd">Certificate Logon</span></a>														-->
+<!--					</td>-->
+<!--				</tr>-->
+<!--					-->
+<!--			&&&		Logon help &&&-->
+<!--				-->
+<!--			&&& 	Commented Till Here.  &&& -->
+<!--			&&&	******************************************* &&&-->
+				</tbody></table>
+			</form>
+
+    	
+<!--			&&&	    Data table ends before this line &&&-->    	
+    	   	</td>
+    	</tr>
+		<tr bgcolor="#FFFFFF">
+	 		<td colspan="2" align="left" style=" font-size: 12px; vertical-align: middle; text-align: justify; width: 50%;">
+	 			<a href="javascript:openforgot()">
+	 				<img src="/com.bpcl.portal.runtime.logon/layout/question_mark.jpg" alt="TOC" style="border: 0; width: 30px; height: 30px; vertical-align: middle;">Trouble Logging in?
+	 			</a>
+			</td>
+			<td colspan="2" align="right" style=" font-size: 12px; vertical-align: middle; text-align: right; width: 50%;">
+				<a href="javascript:openreg()">
+					<img src="/com.bpcl.portal.runtime.logon/layout/register_icon.jpg" alt="TOC" style="border: 0; width: 30px; height: 30px; vertical-align: middle;">Partner Register
+				</a>
+			</td>
+		</tr>	
+		</tbody>
+     	</table>
+     	</td>
+     	</tr>
+		<tr style="width: 100%; height: 45px; background-color: white;">
+     	<td>
+     	</td>
+		</tr>
+		</tbody></table>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="vertical-align: bottom;">
+        	<tbody><tr style="width: 100%; background-color: white; ">
+				<td align="center" valign="bottom" style="color:#858483; font-size:11px; "> 
+					<br>
+					<br>
+		 				The site best viewed with Internet Explorer 11 with resolution of 1024 x 768. You may download IE 11 by clicking this link <a href="https://www.microsoft.com/en-in/download/Internet-Explorer-11-for-Windows-7-details.aspx" target="_blank" style="text-decoration: underline;">Internet Explorer 11</a>. To know more about System and Browser requirement <a href="javascript:openhelp()" style="text-decoration: underline;">Click Here </a>
+		 			<br>
+		 			<br>
+		 				Frequently Asked Question regarding eConnect <a href="javascript:openfaq()" style="text-decoration: underline;">Click Here </a>	
+				</td>
+			</tr>
+			<tr style="width: 100%; background-color: white; ">	
+     			<td align="center" width="50%" valign="bottom" style="color:#858483; font-size:11px; ">
+        			<br>
+            			Design &amp; Concept By ERP-CC IS Dept. | Bharat Petroleum Corporation Ltd., 2010
+     			</td>
+     		</tr>
+		</tbody></table>
+	</td>
+	</tr>
+</tbody></table>

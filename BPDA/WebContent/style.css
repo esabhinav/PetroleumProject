@@ -1,0 +1,235 @@
+body {
+/*background-color: #D7DFE2;*/
+ margin:0px;
+font: 12px  verdana, arial, helvetica;
+/*color: #416271;*/
+}
+h1{
+padding:5px 0 5px 0;
+margin:0px;
+font-size:18px;
+color:#FFFFFF;
+}
+h2{
+padding:5px 0 5px 0;
+margin:0px;
+font-size:18px;
+color:#f7951e;
+}
+h3{
+padding:0 0 5px 0;
+margin:0px;
+font-size:12px;
+color:#59cef9;
+}
+h4{
+padding:0 0 10px 0;
+margin:0px;
+font-size:14px;
+color:#7ea743;
+}
+p{
+text-align:justify;
+padding:2px 0 2px 0;
+margin:0px;
+line-height:15px;
+}
+p.white{
+color:#FFFFFF;
+}
+p.green{
+color:#416271;
+}
+p.clear{
+clear:both;
+padding:10px 0 0 0;
+}
+img.left_img{
+border:1px #cae6c6 solid;
+float:left;
+margin:0 10px 0 0 ;
+}
+img.box_img{
+float:left;
+padding:0 20px 0 0 ;
+}
+#main_container{
+/*width:1100px;*/
+height:auto;
+/*margin:auto;*/
+/*margin:25px 25px 25px 25px;
+ background-color:#FFFFCC;*/
+}
+#header{
+width:auto;
+height:auto;
+margin:auto;
+}
+#logo{
+padding:15px 0 0 30px;
+float:left;
+}
+/*----------------------menu-------------------------*/
+#menu{
+width:auto;
+height:42px;
+padding:0px;
+clear:both;
+background-color:#007ec4;
+}
+#menu ul{
+list-style:none;padding:0 0 0 230px;margin: auto;display:block;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;height:42px;padding:0px;line-height:42px; font-family:Arial, Helvetica, sans-serif; font-size:13px;
+}
+#menu ul li a{
+height:42px; width: auto;float:left;text-decoration:none;padding:0 0 0 25px; margin:0px 3px 0px 3px;color:#fff;text-align:center;
+}
+#menu ul li a:hover{
+height:42px;width: auto;text-decoration:none;color: #fff;padding:0 0 0 25px; background:url(images/menu_arrow.gif) no-repeat left;
+}
+#menu ul li a.current{
+height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #fff;padding:0 0 0 25px; background:url(images/menu_arrow.gif) no-repeat left;
+}
+
+ 
+ 
+ 
+/*--------------------------main_content-------------------*/
+#main_content{
+width:auto;
+height:auto;
+clear:both;
+}
+#left_content{
+width:220px;
+height:auto;
+margin:10px;
+float:left;
+/*padding:10px;*/
+background:url(images/left_content_bg.gif) repeat-x top;
+}
+#right_content{
+width:490px;
+height:auto;
+margin:10px 0 0 0;
+float:left;
+padding:10px;
+}
+
+ 
+input.search_input{
+width:170px;
+height:20px;
+background-color:#FFFFFF;
+border:1px #c0c485 solid;
+float:left;
+margin:15px 0 0 15px;
+}
+input.submit{
+float:left;
+padding:0 0 0 10px;
+}
+ 
+.news_content{
+width:260px;
+float:left;
+padding:0 0 0 10px;
+text-align:justify;
+line-height:13px;
+}
+ 
+  
+/*-----------------------contact_form-------------------*/
+#contact_form{
+width:310px;
+height:auto;
+padding:10px 0 0 60px;
+}
+.form_row{
+float:left;
+padding:4px 0 4px 0;
+}
+label{
+ 
+float:left;
+padding:3px 5px 0 0;
+color:#59a5bf;
+text-align:right;
+}
+input.contact_input{
+width:220px;
+height:18px;
+float:left;
+border:1px #ced6ec solid;
+background-color:#dbedf3;
+color: #000;
+}
+selects{
+width:220px;
+height:88px;
+float:left;
+border:1px #ced6ec solid;
+background-color:#dbedf3;
+color: #000;
+}
+
+textarea.contact_textarea{
+width:220px;
+height:80px;
+float:left;
+border:1px #ced6ec solid;
+background-color:#dbedf3;
+color: #000;
+}
+.send a{
+width:62px;
+height:24px;
+display:block;
+background:url(images/read_more_bg_white.gif) no-repeat center;
+background-position:0px 0px;
+line-height:22px;
+color:#FFFFFF;
+text-decoration:none;
+padding-left:40px;
+float:right;
+margin:10px;
+}
+/*--------------wide_content-----------*/
+#wide_content{
+width:auto;
+padding:10px 20px 10px 20px;
+}
+
+
+/*-----------------------------footer------------------*/
+#footer{
+clear:both;
+width: auto;
+height:50px;
+color: #fff;
+background-color:#B0B0B0;
+}
+.copyright{
+float:left;
+padding-left:10px;
+padding-top:10px;
+}
+.footer_links{
+float:right;
+padding-right:15px;
+padding-top:13px;
+}
+.footer_links a{
+text-decoration:none;
+color: #fff;
+padding-left:10px;
+}
+.footer_links a:hover{
+text-decoration:underline;
+color: #fff;
+}
+.logo{  padding:0px; margin: 5px 0 10px; width:150px; float:left; }
+
+
